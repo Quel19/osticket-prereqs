@@ -18,34 +18,39 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Microsoft Azure
+- Virtual Machine
+- osTicket Installation Files
 
 <h2>Installation Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Step 1 - Conect to your Cirtual Machine with Remote Desktop
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Step 2 - Install/nable Internet Information Services in Windows
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Step 3 - Download, install, and open Web Platorm Installer. Afterwards, download necassary files
+
+Step 4 - Install osTicket v1.15.8
+
+Step 5 - Reload IIS
+
+Step 6 - Enable Extensions in IIS: Some extensions won't be enabled at first
+    -double click PHP Manager
+    -Click Enable or disable an extension under PHP Extensions
+    -Right click
+    -php_imap.dii, php_intl.dii, php_opacache.dii
+
+Step 7 - Refresh the osTicket site in your browser, observe the changes
+
+Step 8 - Rename
+
+Step 9 - Assign Permissions: ost-config.php
+
+Step 10 - Continue setting up osTicket in the browser
+
+Step 11 - Download and Install HeidiSQL
+
+Step 12: Go back to the browser and continue setting up osTicket by filling out the fields
+
+Congratulations!!! You have completed the installation of osTicket!
+
